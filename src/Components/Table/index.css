@@ -1,0 +1,74 @@
+.table-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.custom-table th {
+  background-color: #f4f4f4;
+}
+
+.multi-select-container label {
+  display: block;
+  margin: 5px 0;
+}
+
+.selected-items {
+  margin-top: 10px;
+}
+
+.selected-item {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 5px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.selected-item .remove-btn {
+  background: none;
+  border: none;
+  color: red;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.add-option-container,
+.add-row-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.new-option-input {
+  margin-right: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+.add-option-btn,
+.add-row-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-option-btn:hover,
+.add-row-btn:hover {
+  background-color: #0056b3;
+}
